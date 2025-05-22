@@ -9,16 +9,14 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="font-inter bg-black">
+    <div className="font-inter bg-white">
       <Header />
       <HeroSection />
-      <div className="bg-white">
-        <DestinationsGrid />
-        <ValueSection />
-        <ContactForm />
-        <CallToAction />
-        <Footer />
-      </div>
+      <DestinationsGrid />
+      <ValueSection />
+      <ContactForm />
+      <CallToAction />
+      <Footer />
     </div>
   );
 };
